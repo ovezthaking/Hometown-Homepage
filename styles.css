@@ -1,0 +1,114 @@
+body {
+    font-family: "Delius", cursive;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E3DBD4;
+}
+
+header{
+    background-image: url(images/town.jpg);
+    background-position: 50%;
+    min-height: 343px;
+    height: 30%;
+    width: 1080px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+#title{
+    color: white;
+    background-color: #251712;
+    font-weight: bold;
+    margin-top: 90px;
+    padding: 3px 15px;
+    border-radius: 10px;
+}
+
+#desc{
+    padding: 3px 15px;
+    background-color: #533914;
+    border-radius: 10px;
+    margin: 0 80px;
+}
+
+#container{
+    height: 30%;
+    min-height: 343px;
+    width: 1080px;
+    background-color: #C9B19D;
+}
+
+#top3{
+    margin: 60px 0;
+}
+
+#activities{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.activities{
+    margin: 20px 60px;
+}
+
+.pactv{
+    width: 250px;
+}
+
+.photos{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+#guide{
+    height: 34%;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+#card{
+    display: flex;
+    margin: 100px;
+    width: 500px;
+    height: 350px;
+    align-items: center;
+    background-color: #A3B7DC;
+    border-radius: 10px;
+    box-shadow: 0px 5px 0px;
+}
+
+#gtext{
+    width: 250px;
+    margin: 0 30px;
+}
+
+.gtext{
+    margin: 30px 0 30px 0;
+}
+
+#me{
+    background-image:url(images/me.png);
+    background-size: cover;
+    width: 180px;
+    border-radius: 10px;
+    height: 250px;
+}
+
+#me:hover{
+    background-image: url(/images/OveZ\ signature.png);
+    background-position: 50%;
+}
+
+
